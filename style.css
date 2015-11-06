@@ -1,9 +1,9 @@
 /*
 Theme Name: MediumPress
-Theme URI: http://www.arrizalamin.com/
+Theme URI: http://www.anujsharma.com.np/
 Description: A WordPress Theme Inspired by Medium.com
-Author: Arrizal Amin
-Author URI: http://www.arrizalamin.com/
+Author: Anuj Sharma
+Author URI: http://www.anujsharma.com.np/
 Version: 1.0
 
 License: Dual licensed under the MIT and GPL licenses
@@ -30,7 +30,10 @@ body {
 	color: #333332;
 	font-size: 18px;
 	line-height: 1.4;
+	background-position: center;
+	background-size: cover;
 }
+
 a, a:visited, a:hover, a:active {
 	color: inherit;
 }
@@ -56,7 +59,7 @@ li {
 	position: fixed;
 	left: -280px;
 	width: 280px;
-	background: url('images/background-nav.png');
+	background: #313131;
 	z-index: 1;
 	top: 0;
 }
@@ -217,7 +220,7 @@ li {
 .featured-image, .featured-img {
 	top: 0;
 	width: 100%;
-	height: 537px;
+	height: 100%;
 	left: 0;
 }
 .comment-count {
@@ -455,4 +458,28 @@ h4 {
 	.bio-and-post-group {
 		overflow: hidden;
 	}
+}
+
+
+
+blockquote {
+  border-left: 10px;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+  font-size: 22px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+blockquote:before {
+  content: open-quote;
+  font-size: 4.5em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+
+blockquote p {
+  display: inline;
 }
